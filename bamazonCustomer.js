@@ -35,7 +35,7 @@ connection.connect(function(err) {
   console.log("Connected!");
 
   // Display all of the products available for sale (item_id, product_name, price)
-  //   Then by take the user's order,
+  //   Then take the user's order,
   //     Then attempt to fullfill the order
   displayAllProducts()
 });
