@@ -29,7 +29,7 @@ The set of screenshots shown below document the use of this script, starting wit
 
 `![Screenshot showing the initial state of the products table] (./screenshots/ScreenShot003.png "Initial State of products Table")`
 
-`![Screenshot showing an order that cannot be fulfilled because of insufficient stock] (./screenshots/ScreenShot004.png "Order Cannot be Fulfilled Because of nsufficient Stock")`
+`![Screenshot showing an order that cannot be fulfilled because of insufficient stock] (./screenshots/ScreenShot004.png "Order Cannot be Fulfilled Because of Insufficient Stock")`
 
 `![Screenshot showing invalid Item ID entry] (./screenshots/ScreenShot005.png "Customer Has Entered an Invalid Item ID")`
 
