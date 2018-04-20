@@ -23,23 +23,23 @@ Enter the following at the command line of your terminal or shell:  ``node bamaz
 ### Screenshots
 The set of screenshots shown below document the use of this script, starting with the creation and populating of the products table. Each state that the customer can be in is shown.
 
-`![Screenshot showing the contents of initDB.sql] (./screenshots/ScreenShot001.png "initDB.sql -- Automates creation of the products table")`
+`![Screenshot showing the contents of initDB.sql] (./screenshots/ScreenShot001.png)`
 
-`![Screenshot showing the creation and populating of the products table] (./screenshots/ScreenShot002.png "Creation/Populating of products Table")`
+`![Screenshot showing the creation and populating of the products table] (./screenshots/ScreenShot002.png)`
 
-`![Screenshot showing the initial state of the products table] (./screenshots/ScreenShot003.png "Initial State of products Table")`
+`![Screenshot showing the initial state of the products table] (./screenshots/ScreenShot003.png)`
 
-`![Screenshot showing an order that cannot be fulfilled because of insufficient stock] (./screenshots/ScreenShot004.png "Order Cannot be Fulfilled Because of Insufficient Stock")`
+`![Screenshot showing an order that cannot be fulfilled because of insufficient stock] (./screenshots/ScreenShot004.png)`
 
-`![Screenshot showing invalid Item ID entry] (./screenshots/ScreenShot005.png "Customer Has Entered an Invalid Item ID")`
+`![Screenshot showing invalid Item ID entry] (./screenshots/ScreenShot005.png)`
 
-`![Screenshot showing invalid quantity entry] (./screenshots/ScreenShot006.png "Customer Has Entered an Invalid Quantity")`
+`![Screenshot showing invalid quantity entry] (./screenshots/ScreenShot006.png)`
 
-`![Screenshot showing the product record before a successful purchase] (./screenshots/ScreenShot007.png "State of ID 5 Before Successful Purchase")`
+`![Screenshot showing the product record before a successful purchase] (./screenshots/ScreenShot007.png)`
 
-`![Screenshot showing a successful purchase] (./screenshots/ScreenShot008.png "A Purchase of Item ID 5 Has Been Successful")`
+`![Screenshot showing a successful purchase] (./screenshots/ScreenShot008.png)`
 
-`![Screenshot showing the product record after a successful purchase] (./screenshots/ScreenShot009.png "State of ID 5 After Successful Purchase")`
+`![Screenshot showing the product record after a successful purchase] (./screenshots/ScreenShot009.png)`
 
 
 
