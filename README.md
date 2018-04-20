@@ -23,23 +23,23 @@ Enter the following at the command line of your terminal or shell:  ``node bamaz
 ### Screenshots
 The set of screenshots shown below document the use of this script, starting with the creation and populating of the products table. Each state that the customer can be in is shown.
 
-`![Screenshot showing the contents of initDB.sql] (./screenshots/ScreenShot001.png)`
+`![Screenshot showing the contents of initDB.sql] (https://github.com/tharrisoc/bamazon/screenshots/ScreenShot001.png)`
 
-`![Screenshot showing the creation and populating of the products table] (./screenshots/ScreenShot002.png)`
+`![Screenshot showing the creation and populating of the products table] (https://github.com/tharrisoc/bamazon/screenshots/ScreenShot002.png)`
 
-`![Screenshot showing the initial state of the products table] (./screenshots/ScreenShot003.png)`
+`![Screenshot showing the initial state of the products table] (https://github.com/tharrisoc/bamazon/screenshots/ScreenShot003.png)`
 
-`![Screenshot showing an order that cannot be fulfilled because of insufficient stock] (./screenshots/ScreenShot004.png)`
+`![Screenshot showing an order that cannot be fulfilled because of insufficient stock] (https://github.com/tharrisoc/bamazon/screenshots/ScreenShot004.png)`
 
-`![Screenshot showing invalid Item ID entry] (./screenshots/ScreenShot005.png)`
+`![Screenshot showing invalid Item ID entry] (https://github.com/tharrisoc/bamazon/screenshots/ScreenShot005.png)`
 
-`![Screenshot showing invalid quantity entry] (./screenshots/ScreenShot006.png)`
+`![Screenshot showing invalid quantity entry] (https://github.com/tharrisoc/bamazon/screenshots/ScreenShot006.png)`
 
-`![Screenshot showing the product record before a successful purchase] (./screenshots/ScreenShot007.png)`
+`![Screenshot showing the product record before a successful purchase] (https://github.com/tharrisoc/bamazon/screenshots/ScreenShot007.png)`
 
-`![Screenshot showing a successful purchase] (./screenshots/ScreenShot008.png)`
+`![Screenshot showing a successful purchase] (https://github.com/tharrisoc/bamazon/screenshots/ScreenShot008.png)`
 
-`![Screenshot showing the product record after a successful purchase] (./screenshots/ScreenShot009.png)`
+`![Screenshot showing the product record after a successful purchase] (https://github.com/tharrisoc/bamazon/screenshots/ScreenShot009.png)`
 
 
 
