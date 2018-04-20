@@ -23,23 +23,23 @@ Enter the following at the command line of your terminal or shell:  ``node bamaz
 ### Screenshots
 The set of screenshots shown below document the use of this script, starting with the creation and populating of the products table. Each state that the customer can be in is shown.
 
-![Screenshot showing the contents of initDB.sql](https://github.com/tharrisoc/bamazon/tree/master/screenshots/ScreenShot001.png?=raw=true "initDB.sql -- Automates creation of the products table")
+![Screenshot showing the contents of initDB.sql](https://github.com/tharrisoc/bamazon/tree/master/screenshots/ScreenShot001.png?raw=true "initDB.sql -- Automates creation of the products table")
 
-![Screenshot showing the creation and populating of the products table](https://github.com/tharrisoc/bamazon/tree/master/screenshots/ScreenShot002.png?=raw=true "Creation/Populating of products Table")
+![Screenshot showing the creation and populating of the products table](https://github.com/tharrisoc/bamazon/tree/master/screenshots/ScreenShot002.png?raw=true "Creation/Populating of products Table")
 
-![Screenshot showing the initial state of the products table](https://github.com/tharrisoc/bamazon/tree/master/screenshots/ScreenShot003.png?=raw=true "Initial State of products Table")
+![Screenshot showing the initial state of the products table](https://github.com/tharrisoc/bamazon/tree/master/screenshots/ScreenShot003.png?raw=true "Initial State of products Table")
 
-![Screenshot showing an order that cannot be fulfilled because of insufficient stock](https://github.com/tharrisoc/bamazon/tree/master/screenshots/ScreenShot004.png?=raw=true "Order Cannot be Fulfilled Because of Insufficient Stock")
+![Screenshot showing an order that cannot be fulfilled because of insufficient stock](https://github.com/tharrisoc/bamazon/tree/master/screenshots/ScreenShot004.png?raw=true "Order Cannot be Fulfilled Because of Insufficient Stock")
 
-![Screenshot showing invalid Item ID entry](https://github.com/tharrisoc/bamazon/tree/master/screenshots/ScreenShot005.png?=raw=true "Customer Has Entered an Invalid Item ID")
+![Screenshot showing invalid Item ID entry](https://github.com/tharrisoc/bamazon/tree/master/screenshots/ScreenShot005.png?raw=true "Customer Has Entered an Invalid Item ID")
 
-![Screenshot showing invalid quantity entry](https://github.com/tharrisoc/bamazon/tree/master/screenshots/ScreenShot006.png?=raw=true "Customer Has Entered an Invalid Quantity")
+![Screenshot showing invalid quantity entry](https://github.com/tharrisoc/bamazon/tree/master/screenshots/ScreenShot006.png?raw=true "Customer Has Entered an Invalid Quantity")
 
-![Screenshot showing the product record before a successful purchase](https://github.com/tharrisoc/bamazon/tree/master/screenshots/ScreenShot007.png?=raw=true "State of ID 5 Before Successful Purchase")
+![Screenshot showing the product record before a successful purchase](https://github.com/tharrisoc/bamazon/tree/master/screenshots/ScreenShot007.png?raw=true "State of ID 5 Before Successful Purchase")
 
-![Screenshot showing a successful purchase](https://github.com/tharrisoc/bamazon/tree/master/screenshots/ScreenShot008.png?=raw=true "A Purchase of Item ID 5 Has Been Successful")
+![Screenshot showing a successful purchase](https://github.com/tharrisoc/bamazon/tree/master/screenshots/ScreenShot008.png?raw=true "A Purchase of Item ID 5 Has Been Successful")
 
-![Screenshot showing the product record after a successful purchase](https://github.com/tharrisoc/bamazon/tree/master/screenshots/ScreenShot009.png?=raw=true "State of ID 5 After Successful Purchase")
+![Screenshot showing the product record after a successful purchase](https://github.com/tharrisoc/bamazon/tree/master/screenshots/ScreenShot009.png?raw=true "State of ID 5 After Successful Purchase")
 
 
 
