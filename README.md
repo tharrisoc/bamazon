@@ -23,7 +23,7 @@ Enter the following at the command line of your terminal or shell:  ``node bamaz
 ### Screenshots
 The set of screenshots shown below document the use of this script, starting with the creation and populating of the products table. Each state that the customer can be in is shown.
 
-`![Screenshot showing the contents of initDB.sql] (./screenshots/ScreenShot001.png "initDB.sql -- Automates creation of the products table")`
+`![Screenshot showing the contents of initDB.sql] (./screenshots/ScreenShot001.png?raw=true "initDB.sql -- Automates creation of the products table")`
 
 `![Screenshot showing the creation and populating of the products table] (./screenshots/ScreenShot002.png "Creation/Populating of products Table")`
 
