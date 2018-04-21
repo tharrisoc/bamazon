@@ -63,13 +63,13 @@ You will be presented with a menu of the available operations.
 
 Make a selection by following the directions on the screen.
 
-#####View Products for Sale#####
+##### View Products for Sale #####
 
-If you choose *View Products for Sale*, a table of all of the products in the inventory will be display. **[Note that currently there is a slight bug in the way that the table is displayed.]** 
+If you choose *View Products for Sale*, a table of all of the products in the inventory will be displayed. **[Note that currently there is a slight bug in the way that the table is displayed.]** 
 
 ![Screenshot showing all of the products in the inventory](screenshots/ScreenShot011.png "Table of all the prodcts available for sale")
 
-#####View Low Inventory#####
+##### View Low Inventory #####
 
 If you choose *View Low Inventory*, a table containing those products whose inventory count is less than five will be displayed. If there are no such products, the message "There are currently no products for which there are less than five in stock." will be displayed.
 
@@ -77,8 +77,8 @@ If you choose *View Low Inventory*, a table containing those products whose inve
 
 ![Screenshot showing products with low inventory status](screenshots/ScreenShot013.png "There are two products that need to be reordered")
 
-#####Add to Inventory#####
-
+##### Add to Inventory #####
+ 
 If you choose *Add to Inventory*, you will be prompted for the item_id of the product and the number of items of that product that are being added to the inventory.
 
 ![Screenshot showing Add to Inventory Error Messages](screenshots/ScreenShot014.png "Error checking for the Add to Inventory command")
@@ -89,7 +89,7 @@ If you choose *Add to Inventory*, you will be prompted for the item_id of the pr
 
 ![Screenshot showing ID 5 AFTER Add To Inventory](screenshots/ScreenShot017.png "Run Add to Inventory command")
 
-#####Add New Product#####
+##### Add New Product #####
 
 If you choose *Add New Product*, you will be prompted to enter the Product Name, Department, price and initial stock quantity. If errors are detected in the Manager's input, appropriate error messages are displayed.
 
