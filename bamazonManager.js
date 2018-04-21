@@ -134,7 +134,7 @@ function addToInventory() {
         var regexp = /^\d+$/;
 
         if (isNaN(idCheck) || !regexp.test(answers.productID) || (idCheck === 0) ) {
-          console.log('The ID must be a whole number between 1 and the highest number shown above under item_id.');
+          console.log('The ID must be a whole number between 1 and the highest item_id in the table.');
           connection.end();
           process.exit()
         }
