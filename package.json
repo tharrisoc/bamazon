@@ -19,6 +19,7 @@
   "dependencies": {
     "accounting": "^0.4.1",
     "inquirer": "^5.2.0",
-    "mysql": "^2.15.0"
+    "mysql": "^2.15.0",
+    "sqlstring": "^2.3.1"
   }
 }
