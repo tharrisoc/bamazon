@@ -46,6 +46,7 @@ function displayAllProducts() {
      function(err, res, fields) {
        if (err) {
          console.log(err.message);
+         connection.end();
          throw err;
        }
 
@@ -90,6 +91,7 @@ function takeOrder() {
          function(err, res, fields) {
            if (err) {
              console.log(err.message);
+             connection.end();
              throw err;
             }
 
@@ -126,6 +128,7 @@ function placeOrder(id, quantity, price, inStock, product) {
     function(err, res) {
       if (err) {
         console.log(err.message);
+        connection.end();
         throw err;
       }
 
