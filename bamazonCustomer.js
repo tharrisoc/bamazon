@@ -10,9 +10,9 @@ const ALL_PRODUCT_COLUMN_QUERY = "SELECT * FROM products";
 const ALL_DEPARTMENT_QUERY     = "SELECT * FROM departments";
 const ALL_PRODUCT_SALE_QUERY   = "SELECT item_id, product_name, price FROM products";
 const PRODUCT_CHECK_QUERY      = "SELECT item_id, department_name, price, " 
-                                      + "stock_quantity, product_name FROM products "
+                                      + "stock_quantity, product_name, product_sales FROM products "
                                       + "WHERE ?";
-const PRODUCT_SALE_QUERY       = "UPDATE products SET ? WHERE ?";
+const PRODUCT_SALE_QUERY       = "UPDATE products SET ?, ? WHERE ?";
 
 connection = mysql.createConnection({
     host: "localhost",
@@ -95,10 +95,11 @@ function takeOrder() {
              throw err;
             }
 
-            var item_id = res[0]['item_id'];
-            var price   = res[0]['price'];
-            var inStock = res[0]['stock_quantity'];
-            var product = res[0]['product_name'];
+            var item_id      = res[0]['item_id'];
+            var price        = res[0]['price'];
+            var inStock      = res[0]['stock_quantity'];
+            var product      = res[0]['product_name'];
+            var productSales = res[0]['product_sales'];
 
             if ( (inStock - qCheck) < 0 ) {
               console.log("There is insufficient quantity in stock to fulfill your order.");
@@ -106,20 +107,28 @@ function takeOrder() {
               process.exit();
             }
 
-            placeOrder(item_id, qCheck, price, inStock, product);
+            if ( (productSales === undefined) || (productSales === null) || (productSales === '') ) {
+              productSales = 0.0;
+            }
+
+            placeOrder(item_id, qCheck, price, inStock, product, productSales);
          }
        );
   });
 }
 
-function placeOrder(id, quantity, price, inStock, product) {
+function placeOrder(id, quantity, price, inStock, product, productSales) {
   var newInStock = inStock - quantity;
+  var newProductSales = productSales + (quantity * price);
 
   connection.query(
     PRODUCT_SALE_QUERY,
     [
       {
         stock_quantity : newInStock,
+      },
+      {
+        product_sales : newProductSales,
       },
       {
         item_id : id
@@ -137,6 +146,7 @@ function placeOrder(id, quantity, price, inStock, product) {
       console.log('Unit price is ' + accounting.formatMoney(price));
       console.log('Total order price is ' + accounting.formatMoney( (quantity * price) ));
       connection.end();
+      process.exit();
     }
   );
 }
