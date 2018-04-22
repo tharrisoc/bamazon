@@ -153,7 +153,6 @@ function addToInventory() {
           function(err, res, fields) {
             if (err) {
               console.log(err.message);
-              process.exit();
               throw err;
             }
 
