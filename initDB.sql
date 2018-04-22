@@ -30,7 +30,7 @@ INSERT INTO products (product_name, department_name, price, stock_quantity)
             VALUES( 'Welchs\' Sparkling Grape Juice',  'Foods',  3.59, 200 );
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-            VALUES( 'Barbasol Shave Cream',  'Health and Beauty',  2.95, 103 );
+            VALUES( 'Barbasol Shave Cream',  'Health \& Beauty',  2.95, 103 );
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
             VALUES( 'Winter Insulated Goose Down Jacket',  'Clothing',  98.50, 40 );
@@ -50,32 +50,32 @@ DROP TABLE IF EXISTS departments;
 CREATE TABLE departments (
     department_id INTEGER AUTO_INCREMENT,
     department_name VARCHAR(40) NOT NULL,
-    over_head_costs DECIMAL(10,2) NOT NULL,
+    overhead_costs DECIMAL(10,2) NOT NULL,
     PRIMARY KEY(department_id)
 ) ENGINE = InnoDB;
 
-INSERT INTO departments (department_name, over_head_costs)
+INSERT INTO departments (department_name, overhead_costs)
             values('Hardware' , 50000);
 
-INSERT INTO departments (department_name, over_head_costs)
+INSERT INTO departments (department_name, overhead_costs)
             values('Foods' , 85000);
 
-INSERT INTO departments (department_name, over_head_costs)
+INSERT INTO departments (department_name, overhead_costs)
             values( 'Toys', 70000);
 
-INSERT INTO departments (department_name, over_head_costs)
+INSERT INTO departments (department_name, overhead_costs)
             values('Clothing' , 100000);
 
-INSERT INTO departments (department_name, over_head_costs)
+INSERT INTO departments (department_name, overhead_costs)
             values( 'Health & Beauty', 75000);
 
-INSERT INTO departments (department_name, over_head_costs)
+INSERT INTO departments (department_name, overhead_costs)
             values( 'Appliances', 200000);
 
-INSERT INTO departments (department_name, over_head_costs)
+INSERT INTO departments (department_name, overhead_costs)
             values('Electronics' , 250000);
 
-INSERT INTO departments (department_name, over_head_costs)
+INSERT INTO departments (department_name, overhead_costs)
             values('Pharmacy', 120000 );
 
 
